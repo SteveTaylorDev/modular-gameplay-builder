@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e47936dc859067428d0c2f2dc0c47e8, type: 3}
+  m_Name: ApplyLocalGravityForce
+  m_EditorClassIdentifier: 
+  reverseDirection: 0
+  forceDirection: 
+  useInputDirection: 0
+  useOrientationVector: 0
+  useDirectionVector: 0
+  useMoveDirection: 0
+  usePhysicsVector: 0
+  useLocalGravity: 1
+  useGlobalGravity: 0
+  useGroundAverage: 0
+  useSlopeDirection: 0
+  useVelocityDirection: 0
+  useManualDirection: 0
+  manualDirection: {x: 0, y: 0, z: 0}
+  inverseStrength: 0
+  forceStrength: 
+  useInputMagnitude: 0
+  useCurrentSpeed: 0
+  usePhysicsMagnitude: 0
+  useVelocityMagnitude: 0
+  usePhysicFriction: 0
+  useLocalGravStrength: 1
+  useGlobalGravStrength: 0
+  useGroundDistance: 0
+  useSlopeSteepness: 0
+  groundDistanceOffset: 0
+  useManualStrength: 0
+  manualStrength: 0
+  strengthMultiplier: 1
+  multiplyBySpeed: 0
+  divideBySpeed: 0
+  maxSpeedAmount: 0
+  minSpeedAmount: 0
+  offsetSpeedAmount: 0
+  multiplyBySize: 0
+  multiplyByTime: 1
+  divideByTime: 0
+  ignoreMass: 0
+  useAdditionalMoveVector: 0
+  magnitudeOnly: 0

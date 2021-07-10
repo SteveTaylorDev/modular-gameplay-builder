@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef82ce138e0105f4f8abe056dd585bae, type: 3}
+  m_Name: CameraFollowTarget
+  m_EditorClassIdentifier: 
+  cameraTarget: 0
+  cameraTargetRigidbody: 0
+  cameraTargetMesh: 0
+  useOrbitAngles: 0
+  useOrbitVector: 0
+  orbitLerpSpeed: 
+  positionLerpTime: 
+  smoothDampRefVector: 
+  smoothDampAmount: 

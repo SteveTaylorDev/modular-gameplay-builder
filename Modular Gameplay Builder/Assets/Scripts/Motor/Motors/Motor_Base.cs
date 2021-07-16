@@ -295,7 +295,7 @@ public class Motor_Base : MonoBehaviour
             Debug.LogError("No state is assigned to currentState, the motor cannot function. Please assign a currentState.");
         }
 
-        // DEBUG SHIT
+        // DEBUG STUFF
         if (Input.GetKeyDown(KeyCode.T) && playerNumber == 1)
         {
             if (Time.timeScale == 1) Time.timeScale = 0.12f;

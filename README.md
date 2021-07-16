@@ -17,10 +17,10 @@ A basic run-through of the core system is as follows:
 
 Setup
   - Motor script is added as a component to an object by user (with rigidbody component for Physics Motor or camera component for Camera Motor)
-  - Variables Module should be added to the same Motor object to allow declaring variables compatible with this state system while in editor
+  - Variables Module should be added to the same Motor object to allow declaring and assigning variables compatible with this state system while in editor
   - Additional desired Modules can be added as components (ground detection, input etc)
-  - Using the Create menu, a State object is instantiated and dragged into the Current State reference on the Motor
-  - Again using the Create menu, Condition and Function objects can be instantiated, using Motor Variable references as inputs for its desired behaviour
+  - Using the Create menu, a State scriptable object is instantiated and set as the Current State reference on the Motor (drag and drop)
+  - Again using the Create menu, Condition and Function objects can be instantiated, using motor variable references as input values for its desired behaviour
   - These Conditions and Functions are then attached to the State in the desired run order
 
 Runtime

@@ -19,7 +19,7 @@ Setup
   - Motor script is added as a component to an object by user (with rigidbody component for Physics Motor or camera component for Camera Motor)
   - Variables Module should be added to the same Motor object to allow declaring and assigning variables compatible with this state system while in editor
   - Additional desired Modules can be added as components (ground detection, input etc)
-  - Using the Create menu (right click), a State scriptable object is instantiated and set as the Current State reference on the Motor (drag and drop)
+  - Using the Create menu (right click), a State scriptable object can be instantiated and set as the Current State reference on the Motor (drag and drop into Current State slot)
   - Again using the Create menu, Condition and Function objects can be instantiated, using motor variable references as input values for its desired behaviour
   - These Conditions and Functions are then attached to the State in the desired run order, with timing options to run states in Update, FixedUpdate, and LateUpdate
   - Transition Conditions can be set on a State, allowing the Current State to be swapped out for a different one if the Conditions are met, and a State scriptable object is specified.

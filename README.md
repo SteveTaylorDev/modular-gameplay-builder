@@ -5,7 +5,7 @@ This project was started to develop on a concept for a modular gameplay builder 
 Using a state machine behaviour model, virtual base classes were defined that can be overridden by subclasses.
 
 The logic system was split into Conditions and Functions, which are applied to a State. 
-These could then be read by a Motor (using Modules for advanced functionality like raycasting, collision detection etc).
+These could then be read by a Motor (using Modules for advanced functionality like variable declaration, raycasting, collision detection etc).
 
 With this setup, any new prebuilt Condition or Function behaviour can be read by the Motor, as its base class is used as the input type. 
 
@@ -35,3 +35,5 @@ Runtime
       - If Motor type is PhysicsMotor, movement is applied to rigidbody position/velocity instead of the object transform
 
 To aid testing during runtime, and for ease of use, boolean toggle options (such as setting a Module's active state, or setting Conditions to invert the returned result) are available, and have functional effect while the game is running in editor.
+
+This framework would eventually be used to build an improved, though more barebones, version of a demo I'd previously develeloped; Sonic Islands. This 2019 demo can be found here: https://sonicfangameshq.com/forums/showcase/sonic-islands-physics-preview-wip.365/
